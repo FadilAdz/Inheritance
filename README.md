@@ -108,21 +108,21 @@ public class Main {
     public static void main(String[] args) {
         // Membuat objek Manager
         Manager manager = new Manager();
-        manager.setNama("John Doe");
+        manager.setNama("Reza Cihuy");
         manager.setGajiPokok(5000);
         manager.setTunjangan(1000);
         manager.cetakInfo();
 
         // Membuat objek Programmer
         Programmer programmer = new Programmer();
-        programmer.setNama("Jane Smith");
+        programmer.setNama("Jefri Ahay");
         programmer.setGajiPokok(4000);
         programmer.setBonus(500);
         programmer.cetakInfo();
     }
 }
 ```
-<br> <br> <br>
+<br> <br>
 
 ### Dan ini adalah hasil outputnya
 ![img](P5/assets/output.png)
